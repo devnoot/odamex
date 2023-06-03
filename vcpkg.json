@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "odamex",
+  "dependencies": [
+    {
+      "name": "curl",
+      "default-features": false,
+      "features": [
+        "winssl"
+      ],
+      "platform": "windows"
+    },
+    {
+      "name": "curl",
+      "default-features": false,
+      "features": [
+        "openssl"
+      ],
+      "platform": "!windows"
+    },
+    "fmt",
+    "jsoncpp",
+    "libpng",
+    "miniupnpc",
+    "protobuf",
+    "sdl2",
+    "sdl2-mixer",
+    "wxwidgets"
+  ]
+}

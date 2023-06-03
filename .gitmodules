@@ -26,3 +26,6 @@
 [submodule "libraries/portmidi"]
 	path = libraries/portmidi
 	url = https://github.com/PortMidi/portmidi.git
+[submodule "libraries/vcpkg"]
+	path = libraries/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
