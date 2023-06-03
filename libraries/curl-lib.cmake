@@ -1,7 +1,7 @@
 ### libcurl ###
 
 if(BUILD_CLIENT)
-  if(USE_INTERNAL_CURL)
+  if(USE_INTERNAL_LIBS)
     find_package(CURL CONFIG REQUIRED)
     if(TARGET CURL::libcurl)
       set_target_properties(CURL::libcurl PROPERTIES IMPORTED_GLOBAL True)

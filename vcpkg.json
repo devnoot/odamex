@@ -25,6 +25,7 @@
     "protobuf",
     "sdl2",
     "sdl2-mixer",
-    "wxwidgets"
+    "wxwidgets",
+    "zlib"
   ]
 }
