@@ -63,7 +63,7 @@ endif()
 
 if(USE_MINIUPNP)
   if(USE_INTERNAL_MINIUPNP)
-    target_link_libraries(odasrv miniupnpc::miniupnpc)
+    target_link_libraries(odasrv miniupnpc)
   else()
     find_package(PkgConfig REQUIRED)
     pkg_check_modules(MINIUPNPC miniupnpc REQUIRED IMPORTED_TARGET)

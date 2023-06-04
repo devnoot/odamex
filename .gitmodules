@@ -1,14 +1,6 @@
 [submodule "libraries/fltk"]
 	path = libraries/fltk
 	url = https://github.com/fltk/fltk
-[submodule "libraries/miniupnp"]
-	path = libraries/miniupnp
-	url = https://github.com/miniupnp/miniupnp.git
-[submodule "libraries/jsoncpp"]
-	path = libraries/jsoncpp
-	url = https://github.com/open-source-parsers/jsoncpp.git
-	branch = 0.y.z
-	ignore = dirty
 [submodule "libraries/portmidi"]
 	path = libraries/portmidi
 	url = https://github.com/PortMidi/portmidi.git
