@@ -1,10 +1,6 @@
 [submodule "libraries/fltk"]
 	path = libraries/fltk
 	url = https://github.com/fltk/fltk
-[submodule "libraries/protobuf"]
-	path = libraries/protobuf
-	url = https://github.com/protocolbuffers/protobuf.git
-	branch = 3.5.x
 [submodule "libraries/miniupnp"]
 	path = libraries/miniupnp
 	url = https://github.com/miniupnp/miniupnp.git
